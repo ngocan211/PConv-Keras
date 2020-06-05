@@ -195,7 +195,7 @@ if __name__ == '__main__':
             axes[1].set_title('Predicted Image')
             axes[2].set_title('Original Image')
 
-            plt.savefig(os.path.join(path, '/img_{}_{}.png'.format(i, pred_time)))
+            plt.savefig(os.path.join(path, 'img_{}_{}.png'.format(i, pred_time)))
             plt.close()
 
 
